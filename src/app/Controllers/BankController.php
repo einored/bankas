@@ -90,6 +90,10 @@ class BankController {
         $db = new JsonDb('users');
         $user = $db->show($personalCode);
         $user['balance'] -= $amount;
+        if((int) $user['balance'] < 0)
+            return App::redirect('userList');
+        // print_r($personalCode);
+        // die;
         $db->update($personalCode,(array) $user);
         unset($db);
 

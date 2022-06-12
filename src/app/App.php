@@ -110,7 +110,7 @@ class App {
             }
 
             if ('POST' == $m && count($uri) == 2 && $uri[0] === 'cashIn') {
-                return (new BankController)->cashIn((int) 234123, (int) $_POST['amount']);
+                return (new BankController)->cashIn((int) $uri[1], (int) $_POST['amount']);
             }
 
             if ('GET' == $m && count($uri) == 2 && $uri[0] === 'cashOut') {
@@ -118,7 +118,7 @@ class App {
             }
 
             if ('POST' == $m && count($uri) == 2 && $uri[0] === 'cashOut') {
-                return (new BankController)->cashOut((int) 234123, (int) $_POST['amount']);
+                return (new BankController)->cashOut((int) $uri[1], (int) $_POST['amount']);
             }
 
             if ('GET' == $m && count($uri) == 1 && $uri[0] === 'addUser') {

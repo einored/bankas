@@ -7,7 +7,7 @@ use Bankas\App;
 
 <h1>Pinigu isemimas</h1>
 <main>
-    <form action="cashOut" method="post"><hr><br>
+    <form action="<?= $uri[2] ?>" method="post"><hr><br>
         Amount: <input type="number" name="amount" step="0.01"><br>
         <input type="submit" value="Cash out" class="button">
     </form>
