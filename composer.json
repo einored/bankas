@@ -1,0 +1,16 @@
+{
+    "name": "37065/bankas",
+    "description": "Bankas",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bankas\\": "src/app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Einoras"
+        }
+    ],
+    "require": {}
+}

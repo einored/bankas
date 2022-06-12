@@ -1,0 +1,26 @@
+{
+  "0": {
+    "personalCode": 39005231111,
+    "name": "Bebras",
+    "surname": "Upinis",
+    "password": "202cb962ac59075b964b07152d234b70",
+    "accNumber": "LT11 2222 3333 0001",
+    "balance": 0
+  },
+  "30": {
+    "personalCode": 39005231113,
+    "name": "Bebras1",
+    "surname": "Upinis",
+    "password": "202cb962ac59075b964b07152d234b70",
+    "accNumber": "LT11 2222 3333 0001",
+    "balance": 0
+  },
+  "20": {
+    "personalCode": 39005231114,
+    "name": "Bebras2",
+    "surname": "Upinis",
+    "password": "202cb962ac59075b964b07152d234b70",
+    "accNumber": "LT11 2222 3333 0001",
+    "balance": 0
+  }
+}

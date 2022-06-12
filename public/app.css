@@ -1,0 +1,50 @@
+h1 {
+  color: crimson;
+}
+h1 span {
+  font-size: 50px;
+}
+
+.success {
+  padding: 5px;
+  background-color: aqua;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.alert {
+  padding: 5px;
+  background-color: crimson;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+h2 {
+  color: aquamarine;
+}
+
+.home {
+  color: brown;
+}
+.home__bin {
+  color: cadetblue;
+}
+.home__bin__content {
+  color: cornflowerblue;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuBtn {
+  display: block;
+  padding: 8px;
+}

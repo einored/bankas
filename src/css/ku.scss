@@ -1,0 +1,13 @@
+h2 {
+    color:aquamarine;
+}
+
+.home {
+    color:brown;
+    &__bin {
+        color:cadetblue;
+        &__content {
+            color:cornflowerblue;
+        }
+    }
+}
